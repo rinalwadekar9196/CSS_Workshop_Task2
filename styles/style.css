@@ -16,9 +16,36 @@ body{
     margin-top: 200px;
 }
 
+.nav-link{
+    position: relative;
+    transition: all 0.4s;
+}
+
+.nav-link:hover {
+ color: white;
+}
+
+.nav-link::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    opacity: 0;
+
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
 h3{
     font-weight:bolder;
-    font-size: 35px;
+    font-size: 21px;
+    color: rgb(243, 19, 19);
     /* font-family: "Roboto Condensed", sans-serif; */
 }
 
@@ -89,7 +116,8 @@ a{
 }
 
 .footer-para{
-    font-size: 45px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .para{
