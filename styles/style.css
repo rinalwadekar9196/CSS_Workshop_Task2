@@ -26,6 +26,7 @@ body{
 .nav-link{
     position: relative;
     transition: all 0.4s;
+    
 }
 
 .nav-link:hover {
@@ -78,7 +79,7 @@ body{
 }
 
 .nav-item a{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .logo img{
@@ -113,6 +114,13 @@ a{
 .card-container{
     /* margin-top: 8%; */
     flex-wrap: wrap;
+    width: 1300px;
+    height: 400px;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .inner{
@@ -147,6 +155,9 @@ a{
     transition: all 0.3s;
 }
 
+.content{
+    /* background-color: aquamarine; */
+}
 .card:hover{
 transform: scale(1.15);
 }
@@ -171,6 +182,18 @@ transform: scale(1.15);
     z-index: 1;
 }
 
+.nav-item{
+    padding: 5px;
+   
+}
 
+.card-title{
+    font-weight: bold;
+    font-size: 17px;
+}
 
+.fa-brands{
+    padding: 15px;
+    padding-right: 30px;
+}
 

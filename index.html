@@ -13,6 +13,9 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Web page</title>
   </head>
   <body>
@@ -84,10 +87,10 @@
               <li class="nav-item">
                 <button
                   type="button"
-                  class="button btn btn-primary rounded-pill mx-3"
+                  class="button btn btn-primary rounded-pill mx-3 -3"
                   id="button1"
                 >
-                  Contact
+                  CONTACT
                 </button>
               </li>
             </ul>
@@ -99,20 +102,20 @@
     </div>
     
     <section class="bg-dark" id="sec1">
-      <div class="container" id="sec1-content" class="parent">
-        <div class="row pt-5">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12" id="p1">
-            <h1 class="headings1 ">
-              <span class="text-white" > Fast Track Innovation</span>
+      <div class="container parent" id="sec1-content" >
+        <div class="row pt-5 d-flex justify-content-center">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 " id="p1">
+            <h1 class="headings1  ">
+              <span  style="padding-left:-1950px;" class="text-white" > Fast Track Innovation</span>
             </h1>
-            <p class="p-2 text-white">
+            <p class="p-2 text-white"  style="padding-right:-1200px;">
               Raw Engineering’s experienced Product Strategists , Solutions
               Architects, Designers, and Developers turn Business Vision into
               Digital Reality.
             </p>
           </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12 text-center" id="sec1-img">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 text-center  d-flex justify-content-end mx-0 " id="sec1-img">
             <img src="assets/img1.jpeg" alt="" srcset="" class="img-fluid" />
           </div>
         </div>
@@ -254,14 +257,15 @@
         <div class="text-start my-5">
           <h3 class="headings3"><span>LATEST WORK</span></h3>
         </div>
-        <div class="card-container mb-0">
+        <div class="card-container mb-5">
           <div class="row justify-content-center">
             <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-              <div class="card mt-0"  style="width: 20rem">
-                <div class="card-body mt-0">
+              <div class="card mt-0">
+                <div class="card-body mt-0 pt-0">
                   <div class="inner">
                     <img src="assets/card1.jpeg" class="img-fluid" />
                   </div>
+                  <div class="content">
                   <p class="card-text mt-4">
                     Mobile Development | CMS Implementation
                   </p>
@@ -270,14 +274,16 @@
                     >View case study</a
                   >
                 </div>
+                </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-              <div class="card" style="width: 20rem">
-                <div class="card-body">
+              <div class="card mt-0">
+                <div class="card-body pt-0">
                   <div class="inner">
                     <img src="assets/card2.jpeg" class="img-fluid" />
                   </div>
+                  <div class="content">
                   <p class="card-text mt-4">
                     Headless CMS | Web Development | ReactJS
                   </p>
@@ -285,16 +291,17 @@
                   <a href="#" class="text-primary" style="text-decoration: none"
                     >View case study</a
                   >
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-              <div class="card" style="width: 20rem">
-                <div class="card-body">
+              <div class="card">
+                <div class="card-body pt-0">
                   <div class="inner">
                     <img class="img-fluid" src="assets/card3.jpeg" />
                   </div>
-
+<div class="content">
                   <p class="card-text mt-4">
                     Mobile Development | Microservices Integration
                   </p>
@@ -302,6 +309,7 @@
                   <a href="#" style="text-decoration: none" class="text-primary"
                     >View case study</a
                   >
+                  </div>
                 </div>
               </div>
             </div>
@@ -316,7 +324,7 @@
           <h3  class="headings3 "><span> TESTIMONIALS</span></h3>
         </div>
         <div class="row my-5">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 mt-0">
             <div class="card">
               <div class="card-body">
                 <img style="transition: all 2s ease-out;"
@@ -362,15 +370,16 @@
         <div class="footer-button text-center">
           <button
             type="button"
-            class="button btn btn-primary rounded-pill my-2"
+            class="button btn btn-primary rounded-pill my-2 mb-5"
             id="button3"
           >
             GET IN TOUCH
           </button>
         </div>
 
-        <div class="footerlinks">
-          <ul class="d-flex">
+        <div class="footerlinks mx-3 d-flex justify-content-between">
+          <div class="footer1 mb-0 mx-4 mt-0">  
+            <ul class="d-flex">
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Privacy</a>
             </li>
@@ -384,31 +393,29 @@
               >
             </li>
           </ul>
-        </div>
-        <div>
-          <!-- class="socialIcons d-flex justify-content-center align-items-center" -->
-
-          <p class="text-white text-start mt-0 mx-4">
+               <p class="text-white text-start mt-0 mx-5">
             Copyright © 2024 Raw Engineering LLC. All Rights Reserved.
           </p>
-        </div>
-        <img  
+            <img  
           src="assets/footerimg.png"
-          class="img rounded-circle mx-4 mt-0 mb-5 "
+          class="img rounded-circle mx-5 mt-0 mb-5 "
         />
-      </div>
-      
-    </section>
+        </div>
   
-    <div class="icons">
-       <div class="socialIcons d-flex justify-content-center align-items-center text-dark">
+          <div class="footer2 mx-5">
+            <div class="socialIcons d-flex text-dark px-5 mx-5">
         <a href=""><i class="fa-brands fa-twitter text-white"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in text-white"></i></a>
+        <a href=""><i class="fa-brands fa-facebook text-white"></i></a>
+        <a href=""><i class="fa-brands fa-instagram text-white"></i></a>
       </div>
     </div>
-
+        
+        </div>
+        
+    </section>
+  
+  
     <script src="scripts/index.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
