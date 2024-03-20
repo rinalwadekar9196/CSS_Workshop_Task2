@@ -152,14 +152,14 @@ a{
 .card{
     /* border-radius: 32px; */
     border-radius: 2rem;
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
 }
 
-.content{
+.card-content{
     /* background-color: aquamarine; */
 }
 .card:hover{
-transform: scale(1.15);
+/* transform: scale(1.15); */
 }
 
 .footerImg{
