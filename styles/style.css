@@ -10,6 +10,7 @@ body{
     font-size: 14px;
     line-height: 1.5;
     font-family: "Montserrat,sans-serif";
+    
 }
 .headings1{
     font-size: 60px;
@@ -71,6 +72,7 @@ display: block;
     font-weight:bolder;
     font-size: 21px;
     color: rgb(243, 19, 19);
+    padding-top: 30px;
     /* font-family: "Roboto Condensed", sans-serif; */
 }
 
@@ -85,23 +87,25 @@ display: block;
     padding-top: 2rem !important;
 }
 
-#sec1-content{
-    
-}
-
 #sec1 img{
     width: 550px;
     height: 550px;
     border-style: none;
 }
 
+
+.navbar-nav{
+ margin-right: 120px;
+}
 .nav-item a{
     font-size: 14px;
+   
 }
 
 .logo img{
     width: 170px;
     height: 70px;
+    margin-left: 120px;
 }
 
 #sec2{
@@ -130,10 +134,12 @@ a{
 
 .card-container{
     /* margin-top: 8%; */
-    flex-wrap: wrap;
+    /* flex-wrap:nowrap; */
     width: 1300px;
     height: 400px;
+    margin-left: 120px;
 }
+
 
 .card-title{
     font-size: 1.5rem;
@@ -214,3 +220,25 @@ a{
     padding-right: 30px;
 }
 
+h2{
+    text-align: center;
+    padding: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+
+
+.dash{
+    height: 1px;
+    width: 100px;
+    border: solid red 2px;
+    margin-top: 42px;
+    margin-right: 10px;
+
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
